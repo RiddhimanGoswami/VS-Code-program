@@ -1,0 +1,13 @@
+.cl1 {
+  color: chocolate;
+  background-color: black;
+  padding: 10%;
+  margin:5%;
+  border:10px solid red;
+}
+#img
+{
+    height:50%;
+    width:60%;
+    object-fit: contain;
+}

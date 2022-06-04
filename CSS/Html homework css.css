@@ -1,0 +1,26 @@
+.cl1
+{
+    color: cornflowerblue;
+    background-color: darkolivegreen;
+    border: 5px dashed crimson;
+    padding: 2%;
+    margin:2.5%      
+}
+.cl2
+{
+    color: salmon;
+    background-color: blue;
+    border: 5px dotted black; 
+    padding: 2%;
+    margin:2.5%
+}
+#img1
+{
+    margin: 5%;
+    border: 50px blueviolet;
+    padding: 5%;
+    background-color: darkmagenta;
+    height: 10%;
+    width: 50%;
+    object-fit: contain;
+}

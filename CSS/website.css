@@ -1,0 +1,80 @@
+body {
+  background: -moz-linear-gradient(
+    45deg,
+    #a414e7 20%,
+    #fd1d78 30%,
+    #ff4a00 50%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #a414e7 20%,
+    #fd1d78 30%,
+    #ff4a00 50%
+  );
+  background: linear-gradient(45deg, #a414e7 20%, #fd1d78 30%, #ff4a00 50%);
+}
+.pallete-font {
+  font-family: "Palette Mosaic", cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.sub {
+  font-size: 1.3em;
+  color: white;
+}
+
+.btn {
+  padding: 1%;
+  width: 5%;
+  background-color: rgb(98, 255, 98);
+  border-radius: 5px;
+  border: none;
+  font-size: medium;
+}
+
+.hero-img {
+  width: 70%;
+  object-fit: contain;
+  margin-left: 15%;
+}
+
+#ftr {
+  font-size: 1.5em;
+  color: aquamarine;
+  text-align-last: center;
+}
+#cde {
+  font-size: 1.5em;
+  color: darkorange;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .pallete-font {
+    font-family: "Palette Mosaic", cursive;
+    font-size: 2em;
+    text-align: center;
+  }
+  .sub {
+    font-size: 1.3em;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }
+  .btn {
+    padding: 5%;
+    width: 25%;
+    background-color: rgb(98, 255, 98);
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    margin-left: 35%;
+    margin-bottom: 10%;
+  }
+  #ftr {
+    font-size: 1.5em;
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 12%;
+  }
+}
