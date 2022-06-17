@@ -37,12 +37,7 @@ body {
   position: absolute;
   top: -60px;
   left: 0px;
-  animation-name: drive;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-duration: 3s;
-  animation-timing-function: linear;
+  animation: drive 3s both infinite linear, jump 0.3s 1.2s ease;
 }
 .luigi {
   top: 110px;
@@ -86,5 +81,16 @@ body {
   }
   to {
     left: 100%;
+  }
+}
+@keyframes jump {
+  0% {
+    top: -60px;
+  }
+  50% {
+    top: -100px;
+  }
+  100% {
+    top: -60px;
   }
 }
