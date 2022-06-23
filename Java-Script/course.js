@@ -7,7 +7,7 @@ undefined, null, boolean, string, symbol, number and object
 */
 var myName = "Riddhiman"
 console.log(myName)
-myName = 13
+myName = 19
 console.log(myName)
 let ourName = "Cooder"
 const pi = 3.14
