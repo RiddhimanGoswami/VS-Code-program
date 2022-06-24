@@ -108,3 +108,23 @@ var myStr = "first line\n\t\\Second line\nthird line";
 console.log(myStr)
 var ourStr = "I came first" + " I came second";
 console.log(ourStr)
+//Example
+var ourStr = "i came first. ";
+ourStr += "i came second";
+console.log(ourStr)
+//Example
+var ourname = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?"
+console.log(ourStr)
+var andAdjective = "aswome !";
+var ourStr = "freeCodecamp is ";
+ourStr += andAdjective;
+console.log(ourStr)
+var firstnamelengtn = 0;
+var firstname = "Riddhiman";
+firstnamelengtn = firstname.length
+console.log(firstnamelengtn)
+var firstletteroffirstname = "";
+var firstname = "Riddhiman"
+firstletteroffirstname = firstname[0]
+console.log(firstletteroffirstname)
