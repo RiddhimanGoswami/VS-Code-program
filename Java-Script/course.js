@@ -138,3 +138,18 @@ console.log(thirdletter);
 var firstname = "Riddhi";
 var lastletteroffirstname = firstname[firstname.length - 1]
 console.log(lastletteroffirstname);
+function wordBlanks (myNoun, myAdjective, myVerb, myAdverb) {
+    //Your code below this line
+    var result = "";
+    result += "the " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb
+    //Your code below this line
+    return result;
+}
+//Change the words here to test your function
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+console.log(wordBlanks("bike", "slow", "flew", "slowly"));
+//Example
+var ourArray = ["Jhon",23];
+console.log(ourArray)
+var ourArray = [["the universe", 42], ["everything", 101010]];
+console.log(ourArray)
