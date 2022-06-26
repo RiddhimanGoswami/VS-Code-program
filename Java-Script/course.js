@@ -153,3 +153,35 @@ var ourArray = ["Jhon",23];
 console.log(ourArray)
 var ourArray = [["the universe", 42], ["everything", 101010]];
 console.log(ourArray)
+//Example
+var ourArray = [50,60,70];
+var ourData = ourArray[0]; //equals 50
+console.log(ourData)
+//Example
+ourArray = [18,64,99];
+ourArray[1] = 45; // ourarray is now equals [18,45,99]
+console.log(ourArray)
+//Setup
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12],13, 14 ]]
+//only change code below this line
+var myData = myArray[2][1];
+console.log(myData)
+//Example
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.push(["happy", "joy"]);
+console.log(ourArray)
+//Example 
+var ourArray = [1,2,3];
+var removedFromOurarray = ourArray.pop();
+console.log(ourArray)
+//Example
+var ourArray = [1,2,3];
+var removedFromOurarray = ourArray.shift();
+console.log(ourArray)
+//Example
+var ourArray = [1,2,3];
+ourArray.shift();
+ourArray.unshift("happy");
+console.log(ourArray)
+var mylist = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]]
+console.log(mylist)
