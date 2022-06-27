@@ -185,3 +185,39 @@ ourArray.unshift("happy");
 console.log(ourArray)
 var mylist = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]]
 console.log(mylist)
+//Example
+function ourreusablefunction (){
+    console.log("Heyya, World");
+}
+ourreusablefunction()
+ourreusablefunction()
+ourreusablefunction()
+//Example
+function ourFuctionWithArgs(a,b){
+    console.log(a-b)
+}
+ourFuctionWithArgs(10,5)
+//Example
+function ourFuctionWithArgss(a,b){
+    console.log(a+b)
+}
+ourFuctionWithArgss(10,5)
+// Declare variable here
+var myGlobal = 10;
+function fun1 () {
+    // Assign 5 to oppsGlobal here
+    oppsGlobal = 5;
+}
+//only change code above this line
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if ( typeof oppsGlobal != "undefined") {
+        output += " oppsGlobal: " + oppsGlobal;
+    }
+    console.log(output);
+}
+fun1();
+fun2();
