@@ -1,0 +1,18 @@
+body {
+  background-image: url("https://princepal-media.s3.ap-south-1.amazonaws.com/photo/upload/india-flag-9-tiranga-wallpaper-2022-min-03082022.jpg");
+  background-size: cover;
+}
+#code {
+  margin-left: 33%;
+  margin-top: 5%;
+  font-size: x-large;
+}
+.aazadi {
+  margin-left: 40%;
+  margin-top: 3%;
+  font-size: x-large;
+}
+.monogram {
+  margin-top: -12%;
+  margin-left: 85%;
+}
