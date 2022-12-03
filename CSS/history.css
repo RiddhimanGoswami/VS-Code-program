@@ -2,17 +2,31 @@ body {
   background-image: url("https://princepal-media.s3.ap-south-1.amazonaws.com/photo/upload/india-flag-9-tiranga-wallpaper-2022-min-03082022.jpg");
   background-size: cover;
 }
-#code {
+#div1 {
   margin-left: 33%;
   margin-top: 5%;
   font-size: x-large;
 }
-.aazadi {
+#div2 {
   margin-left: 40%;
   margin-top: 3%;
   font-size: x-large;
 }
-.monogram {
-  margin-top: -12%;
+#monogram {
   margin-left: 85%;
+  margin-top: -12%;
+}
+.head1 {
+  margin-left: 45%;
+  margin-top: 31%;
+  color: blue;
+  font-size: larger;
+}
+#btn1 {
+  margin-left: 49%;
+  margin-top: 3.5%;
+}
+#img1 {
+  height: 50px;
+  width: 50px;
 }

@@ -1,0 +1,58 @@
+body
+{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5000px;
+    margin-top: 50px;
+}
+
+.corner
+{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.school
+{
+    float: right;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.school:hover
+{
+    font-size: 20px;
+    background-color: yellow;
+    font-family: 'Fredoka One', cursive;
+}
+
+#heading_1, #acknow, #exhibition_heading, #project_heading
+{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: black;
+}
+
+#statement, #acknow_para, #exhibition_para
+{
+    font-size: 18px;
+}
+
+#gandhi_para
+{
+    float: left;
+    font-size: 18px;
+}
+
+#gandhi
+{
+    margin-left: 1000px;
+    float: right;
+    width: 250px;
+    height: 150px;
+}
