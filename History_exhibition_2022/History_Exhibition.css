@@ -1,0 +1,43 @@
+body {
+  background-image: url("https://www.pngarts.com/files/3/Indian-Flag-Transparent-Background-PNG.png");
+  background-size: 50%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 10%;
+}
+#heading {
+  color: orange;
+}
+#heading2 {
+  color: blue;
+}
+#heading3 {
+  color: rgb(15, 233, 11);
+}
+#monogram {
+  margin-left: 85%;
+  margin-top: -10%;
+}
+#txt1 {
+  color: rgb(247, 168, 22);
+}
+#btn1 {
+  background-color: rgb(255, 132, 0);
+}
+#btn2 {
+  background-color: blue;
+}
+#btn3 {
+  background-color: rgb(50, 139, 50);
+}
+#big_txt {
+  color: white;
+}
+#txt_main_head {
+  color: rgb(255, 162, 0);
+  margin-top: 20%;
+}
+#quote {
+  color: lightgreen;
+}

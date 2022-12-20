@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+}
+#heading {
+  text-align: center;
+  color: orange;
+}
+#Gandhi {
+  color: rgb(224, 214, 21);
+}
+#Gandhi_pic {
+  margin-left: 1000px;
+  height: 350px;
+  width: 400px;
+}
+#txt1 {
+  color: rgb(149, 242, 102);
+  margin-top: -25%;
+  margin-right: 33%;
+}
+#head_2 {
+  color: rgb(35, 229, 194);
+  margin-top: 20%;
+}
+#txt2 {
+  color: rgba(226, 43, 187, 0.874);
+  margin-right: 33%;
+}
+#big_txt {
+  color: white;
+  margin-right: 35%;
+}
+#header_aims {
+  color: rgb(212, 145, 68);
+  margin-top: 25%;
+}
+#non-cooperation_pic {
+  margin-left: 83%;
+  margin-top: -30%;
+  width: 70%;
+  height: 60%;
+}
+#reasons_txt {
+  margin-right: 33%;
+  margin-top: -40%;
+  color: rgba(35, 156, 138, 0.799);
+}
+#reasons {
+  margin-top: 25%;
+  color: rgba(36, 240, 13, 0.714);
+}
+#reason_pic {
+  margin-left: 73%;
+  margin-top: -20%;
+}
+#txt_aims {
+  margin-top: -2%;
+  color: rgb(215, 218, 27);
+}
+#aims_pic {
+  margin-left: 70%;
+  margin-top: -40%;
+  width: 70%;
+}
+#events {
+  color: rgb(43, 240, 63);
+  margin-top: 10%;
+}
+#events_txt {
+  margin-right: 33%;
+  color: rgb(213, 169, 24);
+}
+#timeline {
+  margin-left: 70%;
+  margin-top: -30%;
+  width: 84%;
+}
+#churai_chura {
+  width: 60%;
+  margin-left: 80%;
+  margin-top: -25%;
+}
+#churai_chura_txt {
+  margin-right: 23%;
+  color: rgb(246, 137, 36);
+}
+#quote {
+  height: 500px;
+  margin-left: 95%;
+  margin-top: -25%;
+}
+#achievements {
+  margin-top: 10%;
+  color: blueviolet;
+}
+#achievement_txt {
+  color: aquamarine;
+}
